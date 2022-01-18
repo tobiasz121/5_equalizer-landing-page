@@ -309,7 +309,14 @@ span {
     margin: auto;
   }
 
+  section {
+    width:90%;
+    margin: auto;
+  }
 
+  .header_h1 {
+    max-width: 95%;
+  }
 
   .page {
     width:100%;
