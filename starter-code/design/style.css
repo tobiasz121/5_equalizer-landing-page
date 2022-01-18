@@ -300,12 +300,12 @@ span {
   }
 
   header {
-    width:90%;
+    width:100%;
     margin: auto;
   }
 
   footer {
-    width:90%;
+    width:100%;
     margin: auto;
   }
 
@@ -316,11 +316,11 @@ span {
 
   .header_h1 {
     max-width: 95%;
-    font-size: 90%;
+    font-size: 130%;
   }
 
   .page {
-    width:100%;
+    width:95%;
   }
 
   .header_p {
