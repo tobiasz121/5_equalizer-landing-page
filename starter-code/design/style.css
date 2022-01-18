@@ -213,7 +213,88 @@ span {
   filter: invert(66%) sepia(49%) saturate(4037%) hue-rotate(326deg) brightness(100%) contrast(97%);
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1100px){
+
+  html {
+    font-size: 50%;
+      }
+
+  header {
+      width:95%;
+      margin: auto;
+    }
+
+  h1 {
+    max-width: 70%;
+    margin-left: 0;
+  }
+
+  section {
+    width:95%;
+    margin: auto
+  }
+
+  footer {
+      width:95%;
+      margin: auto;
+    }
+
+  .page {
+      width:100%;
+    }
+
+  .app {
+    height: 556px;
+  }
+
+  .premium {
+    top:22rem;
+    left:45%;
+  }
+
+  .app {
+    left:10%
+  }
+
+  .container {
+    background-size: 40rem;
+  }
+
+  body {
+    background-image: url("../assets/bg-main-desktop.png"), url("../assets/bg-pattern-1.svg");
+    background-position: top left, 100% -7%;
+    background-size: auto,30rem;
+  }
+
+  .footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer_p {
+    margin-left: 0;
+    padding-top: 5rem;
+
+    }
+
+    .footer_logos {
+      align-items:flex-end;
+    }
+
+    .footer_logos > a {
+      padding-top: 3rem;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
 
   html {
     font-size: 40%;
