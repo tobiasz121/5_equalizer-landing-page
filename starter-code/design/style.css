@@ -310,12 +310,13 @@ span {
   }
 
   section {
-    width:90%;
+    width:100%;
     margin: auto;
   }
 
   .header_h1 {
     max-width: 95%;
+    font-size: 90%;
   }
 
   .page {
@@ -332,6 +333,7 @@ span {
     background-position: 50% -3rem;
     background-size: 50rem;
     margin-top: 15rem;
+    width:inherit;
 
   }
 
